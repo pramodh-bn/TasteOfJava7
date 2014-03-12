@@ -1,11 +1,5 @@
-package org.test.pran.main;
+package org.test.pran.pathhandling;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.net.URL;
-import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -17,7 +11,7 @@ import java.util.Map;
 /**
  * Created by dyanna on 3/11/14.
  */
-public class Test {
+public class SimpleReading {
     public static void main(String[] args) {
         System.out.println("Hello World");
         Map<Integer, Map<String, String>> userList = new HashMap<>();
